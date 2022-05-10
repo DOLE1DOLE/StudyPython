@@ -5,3 +5,7 @@
 
 greeting="Hello, I'm a teacher. \"Bye~\"  \a"   #\a는 컴퓨터 알람소리남
 print(greeting)
+
+
+x,y=map(int, input('두 수를 입력하세요(구분자는 /) > ').split('/'))
+print(x*y)

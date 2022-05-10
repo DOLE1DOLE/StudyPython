@@ -9,4 +9,4 @@ for x in range(2,10):     ##왜 3이지-> 2 구구단만할거니까 +1
     print(f'{x}단 시작')
     for y in range(1,10):
         print(f'{x}x{y}={x*y:2d}', end=' ')  ##end는 줄안바꾸고 한줄에쭉나오게함/2d는 출력값 자릿수맞추기(f는 소수점)
-    print()   # 각 단마다 줄 맞추기
+    print()  # 각 단마다 줄 맞추기
